@@ -1,0 +1,119 @@
+@import './colors';
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'Red Hat Display', sans-serif;
+	background-image: url(../images/pattern-background-mobile.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: $paleBlue;
+}
+
+.card {
+	width: 375px;
+	border-radius: 25px;
+	background-color: $veryPaleBlue;
+	overflow: hidden;
+	box-shadow: 1px 16px 17px 1px rgba(66, 68, 90, 1);
+}
+.card__img {
+	width: 100%;
+}
+
+.card__body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 25px;
+}
+
+.card__text {
+	text-align: center;
+	font-size: 16px;
+	color: $desaturatedBlue;
+}
+
+.card__priceComponent {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	height: 85px;
+	padding: 5px;
+	background-color: $paleBlue;
+	border-radius: 25px;
+}
+
+.card__icon {
+	width: 45px;
+	height: 45px;
+	margin-left: 5px;
+	padding: 5px;
+}
+
+.card__priceComponentText {
+	width: 100%;
+	height: 100%;
+	margin-left: 10px;
+}
+
+.card__name {
+	margin-bottom: 0;
+	font-weight: 700;
+	font-size: 16px;
+	color: $darkBlue;
+}
+
+.pcard__price {
+	font-size: 16px;
+	color: $desaturatedBlue;
+}
+
+.card__link {
+	margin-right: 10px;
+	font-weight: 900;
+}
+
+.card__accept {
+	width: 100%;
+	height: 50px;
+	margin-top: 25px;
+	background-color: $brightBlue;
+	border: none;
+	border-radius: 15px;
+	font-size: 16px;
+	font-weight: 900;
+	color: $paleBlue;
+	cursor: pointer;
+	transition: background-color 0.7s;
+	&:hover {
+		background-color: $darkBlue;
+	}
+}
+
+.card__cancel {
+	margin-top: 25px;
+	width: 50%;
+	border: none;
+	background-color: $veryPaleBlue;
+	font-size: 16px;
+	font-weight: 700;
+	color: $desaturatedBlue;
+	cursor: pointer;
+}
+
+.attribution {
+	margin-top: 20px;
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
