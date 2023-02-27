@@ -9,13 +9,13 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: hsl(225deg, 100%, 94%);
+  background-color: hsl(225, 100%, 94%);
 }
 
 .card {
   width: 375px;
   border-radius: 25px;
-  background-color: hsl(225deg, 100%, 98%);
+  background-color: hsl(225, 100%, 98%);
   overflow: hidden;
   box-shadow: 1px 16px 17px 1px rgb(66, 68, 90);
 }
@@ -35,7 +35,7 @@ body {
 .card__text {
   text-align: center;
   font-size: 16px;
-  color: hsl(224deg, 23%, 55%);
+  color: hsl(224, 23%, 55%);
 }
 
 .card__priceComponent {
@@ -45,7 +45,7 @@ body {
   width: 100%;
   height: 85px;
   padding: 5px;
-  background-color: hsl(225deg, 100%, 94%);
+  background-color: hsl(225, 100%, 94%);
   border-radius: 25px;
 }
 
@@ -66,12 +66,12 @@ body {
   margin-bottom: 0;
   font-weight: 700;
   font-size: 16px;
-  color: hsl(223deg, 47%, 23%);
+  color: hsl(223, 47%, 23%);
 }
 
 .pcard__price {
   font-size: 16px;
-  color: hsl(224deg, 23%, 55%);
+  color: hsl(224, 23%, 55%);
 }
 
 .card__link {
@@ -83,27 +83,27 @@ body {
   width: 100%;
   height: 50px;
   margin-top: 25px;
-  background-color: hsl(245deg, 75%, 52%);
+  background-color: hsl(245, 75%, 52%);
   border: none;
   border-radius: 15px;
   font-size: 16px;
   font-weight: 900;
-  color: hsl(225deg, 100%, 94%);
+  color: hsl(225, 100%, 94%);
   cursor: pointer;
   transition: background-color 0.7s;
 }
 .card__accept:hover {
-  background-color: hsl(223deg, 47%, 23%);
+  background-color: hsl(223, 47%, 23%);
 }
 
 .card__cancel {
   margin-top: 25px;
   width: 50%;
   border: none;
-  background-color: hsl(225deg, 100%, 98%);
+  background-color: hsl(225, 100%, 98%);
   font-size: 16px;
   font-weight: 700;
-  color: hsl(224deg, 23%, 55%);
+  color: hsl(224, 23%, 55%);
   cursor: pointer;
 }
 
@@ -114,5 +114,5 @@ body {
 }
 
 .attribution a {
-  color: hsl(228deg, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }/*# sourceMappingURL=style.css.map */
